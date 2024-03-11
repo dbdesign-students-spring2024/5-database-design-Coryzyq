@@ -95,3 +95,5 @@ Given that the table is already 1NF compliant, we will test 2NF and 3NF first.
 
 These tables will eilimate multivalued dependency and partial dependencies in the original data table.
 The resulting data tables will alsominimize data redendancy and prevent update anomalies.
+Every non-key attribute depends only on the candidate keys now, so no partial dependencies.
+No more multi-valued dependencies. 
