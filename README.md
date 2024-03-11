@@ -19,7 +19,15 @@ Given that the table is already 1NF compliant, we will test 2NF and 3NF first.
 
 3NF - In terms of 3NF, the `professor_email` is dependent on `professor` rather than the composite key here. 
 
+## TABLES CONTAINING THE 4NF-COMPLIANT VERSION OF THE DATA SET
+| assignment_id | due_date | assignment_topic                |
+| :------------ | :------- | :------------------------------ |
+| 1             | 23.02.21 | Data normalization              |
+| 2             | 18.11.21 | Single table queries            |
+| 3             | 05.05.21 | Python and pandas               |
+| 4             | 04.07.21 | Spreadsheet aggregate functions |
 
+## WHAT CHANGES I HAVE MADE TO MAKE THE DATA TABLE 4NF COMPLIANT
 table with assignment_id and due date
 
 student table with student_id and student name
