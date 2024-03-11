@@ -30,6 +30,14 @@ Given that the table is already 1NF compliant, we will test 2NF and 3NF first.
 | 4             | 4         | 04.07.21 | Spreadsheet aggregate functions |
 | ...           | ...       | ...      | ...                             |
 
+| assignment_id | course_id | due_date | assignment_topic                |
+| :------------ | :-------- | :------- | :------------------------------ |
+| 1             | 1         | 23.02.21 | Data normalization              |
+| 2             | 2         | 18.11.21 | Single table queries            |
+| 5             | 3         | 05.05.21 | Python and pandas               |
+| 4             | 4         | 04.07.21 | Spreadsheet aggregate functions |
+| ...           | ...       | ...      | ...                             |
+
 ### Students Table
 | student_id | student_name          |
 | :--------- | :-------------------- |
